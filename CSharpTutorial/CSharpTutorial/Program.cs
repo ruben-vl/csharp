@@ -6,13 +6,11 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter username:");
-            string userName = Console.ReadLine();
-            Console.WriteLine("Username is: " + userName);
-
-            Console.WriteLine("Enter your age:");
-            int age = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Your age is: " + age);
+            Math.Max(5, 10);
+            Math.Min(5, 10);
+            Math.Sqrt(64);
+            Math.Abs(-4.7);
+            Math.Round(9.99);
         }
     }
 }
