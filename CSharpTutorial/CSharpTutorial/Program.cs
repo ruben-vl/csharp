@@ -6,11 +6,20 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Math.Max(5, 10);
-            Math.Min(5, 10);
-            Math.Sqrt(64);
-            Math.Abs(-4.7);
-            Math.Round(9.99);
+            string greeting = "Hello";
+            string greeting2 = "Nice to meet you!";
+
+            // string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            // Console.WriteLine("The length of the txt string is: " + txt.Length);
+
+            string txt = "Hello World";
+            Console.WriteLine(txt.ToUpper());   // Outputs "HELLO WORLD"
+            Console.WriteLine(txt.ToLower());   // Outputs "hello world"
+
+            string firstName = "John ";
+            string lastName = "Doe";
+            string name = firstName + lastName;
+            Console.WriteLine(name);
         }
     }
 }
