@@ -18,8 +18,8 @@ namespace HelloWorld
             string name = "John";
             Console.WriteLine(name);
 
-            int myNum = 15;
-            myNum = 20;
+            const int myNum = 15;
+            // myNum = 20;
             Console.WriteLine(myNum);
 
             double myDoubleNum = 5.99D;
