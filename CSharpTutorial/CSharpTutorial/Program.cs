@@ -38,6 +38,31 @@ namespace HelloWorld
             int a, b, c;
             a = b = c = 50;
             Console.WriteLine(a + b + c);
+
+            long myLong = 1500000000L;
+            Console.WriteLine(myLong);
+
+            float myFloat = 5.75F;
+            Console.WriteLine(myFloat);
+
+            double myDouble = 19.99D;
+            Console.WriteLine(myDouble);
+
+            float f1 = 35e3F;
+            double d1 = 12E4D;
+            Console.WriteLine(f1);
+            Console.WriteLine(d1);
+
+            bool isCSharpFun = true;
+            bool isFishTasty = false;
+            Console.WriteLine(isCSharpFun);
+            Console.WriteLine(isFishTasty);
+
+            char myGrade = 'B';
+            Console.WriteLine(myGrade);
+
+            string greeting = "Hello World";
+            Console.WriteLine(greeting);
         }
     }
 }
