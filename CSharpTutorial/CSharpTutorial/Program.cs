@@ -16,7 +16,7 @@ namespace HelloWorld
             Console.WriteLine("I will print on the same line.");
 
             string name = "John";
-            Console.WriteLine(name);
+            Console.WriteLine("Hello " + name);
 
             const int myNum = 15;
             // myNum = 20;
@@ -26,6 +26,15 @@ namespace HelloWorld
             char myLetter = 'D';
             bool myBool = true;
             string myText = "Hello";
+
+            string firstName = "John ";
+            string lastName = "Doe";
+            string fullName = firstName + lastName;
+            Console.WriteLine(fullName);
+
+            int x = 5;
+            int y = 6;
+            Console.WriteLine(x + y);
         }
     }
 }
