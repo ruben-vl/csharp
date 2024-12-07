@@ -6,17 +6,13 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            int myAge = 25;
-            int votingAge = 18;
+            string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+            cars[0] = "Opel";
+            Console.WriteLine(cars[0]);
+            Console.WriteLine(cars.Length);
 
-            if (myAge >= votingAge)
-            {
-                Console.WriteLine("Old enough to vote!");
-            }
-            else
-            {
-                Console.WriteLine("Not old enough to vote.");
-            }
+            string[] temp;
+            temp = new string[] {"Volvo", "BMW", "Ford"};
         }
     }
 }
