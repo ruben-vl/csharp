@@ -6,10 +6,15 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string firstName = "John";
-            string lastName = "Doe";
-            string name = $"My full name is: {firstName} {lastName}";
-            Console.WriteLine(name);
+            string myString = "Hello";
+            Console.WriteLine(myString[1]);
+
+            Console.WriteLine(myString.IndexOf("e"));
+
+            string name = "John Doe";
+            int charPos = name.IndexOf("D");
+            string lastName = name.Substring(charPos);
+            Console.WriteLine(lastName);
         }
     }
 }
