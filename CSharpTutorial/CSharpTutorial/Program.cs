@@ -24,7 +24,7 @@ namespace HelloWorld
 
             double myDoubleNum = 5.99D;
             char myLetter = 'D';
-            bool myBool = true;
+            // bool myBool = true;
             string myText = "Hello";
 
             string firstName = "John ";
@@ -45,8 +45,8 @@ namespace HelloWorld
             float myFloat = 5.75F;
             Console.WriteLine(myFloat);
 
-            double myDouble = 19.99D;
-            Console.WriteLine(myDouble);
+            // double myDouble = 19.99D;
+            // Console.WriteLine(myDouble);
 
             float f1 = 35e3F;
             double d1 = 12E4D;
@@ -63,6 +63,24 @@ namespace HelloWorld
 
             string greeting = "Hello World";
             Console.WriteLine(greeting);
+
+            // int myInt = 9;
+            // double myDouble = myInt;
+            // Console.WriteLine(myInt);
+            // Console.WriteLine(myDouble);
+
+            // double myDouble = 9.78;
+            // int myInt = (int) myDouble;
+            // Console.WriteLine(myDouble);
+            // Console.WriteLine(myInt);
+
+            int myInt = 10;
+            double myDouble = 5.25;
+            bool myBool = true;
+            Console.WriteLine(Convert.ToString(myInt));
+            Console.WriteLine(Convert.ToDouble(myInt));
+            Console.WriteLine(Convert.ToInt32(myDouble));
+            Console.WriteLine(Convert.ToString(myBool));
         }
     }
 }
