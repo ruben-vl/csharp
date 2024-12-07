@@ -6,15 +6,17 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            string myString = "Hello";
-            Console.WriteLine(myString[1]);
+            int myAge = 25;
+            int votingAge = 18;
 
-            Console.WriteLine(myString.IndexOf("e"));
-
-            string name = "John Doe";
-            int charPos = name.IndexOf("D");
-            string lastName = name.Substring(charPos);
-            Console.WriteLine(lastName);
+            if (myAge >= votingAge)
+            {
+                Console.WriteLine("Old enough to vote!");
+            }
+            else
+            {
+                Console.WriteLine("Not old enough to vote.");
+            }
         }
     }
 }
