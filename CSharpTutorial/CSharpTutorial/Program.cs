@@ -32,9 +32,12 @@ namespace HelloWorld
             string fullName = firstName + lastName;
             Console.WriteLine(fullName);
 
-            int x = 5;
-            int y = 6;
-            Console.WriteLine(x + y);
+            int x = 5, y = 6, z = 50;
+            Console.WriteLine(x + y + z);
+
+            int a, b, c;
+            a = b = c = 50;
+            Console.WriteLine(a + b + c);
         }
     }
 }
