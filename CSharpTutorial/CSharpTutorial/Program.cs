@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Linq;
+using System.IO;
 
 namespace CSharpTutorial
 {
@@ -7,14 +7,11 @@ namespace CSharpTutorial
     {
         static void Main(string[] args)
         {
-            MyMethod();
-            MyMethod();
-            MyMethod();
-        }
+            string writeText = "Hello World!";
+            File.WriteAllText("filename.txt", writeText);
 
-        static void MyMethod()
-        {
-            Console.WriteLine("I just got executed!");
+            string readText = File.ReadAllText("filename.txt");
+            Console.WriteLine(readText);
         }
     }
 }
